@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "emojis.py"
+version = "1.0.0"
+description = "A basic emoji manipulator for Python."
+authors = ["Ombucha <omkaar.nerurkar@gmail.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/Ombucha/emojis.py/"
+documentation = "https://emoji.readthedocs.io/"
+keywords = ["python", "emoji", "emojis", "emojis.py", "emoji.py"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+packages = ["emojis"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/Ombucha/emojis.py/issues"
