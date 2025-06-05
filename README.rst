@@ -13,11 +13,9 @@
     :target: https://github.com/Ombucha/emojis.py
     :alt: Repository size
 
-✨ A lightweight, expressive emoji utility library for Python 💻🐍  
-🎉 Supports emoji lookup, search, and emoji-kitchen-style combos — all offline and blazing fast ⚡  
-No dependencies — just pure emoji magic 🪄
-
----
+| ✨ A lightweight, expressive emoji utility library for Python 💻🐍  
+| 🎉 Supports emoji lookup, search, and emoji-kitchen-style combos — all offline and blazing fast ⚡  
+| No dependencies — just pure emoji magic 🪄
 
 🚀 Features
 -----------
@@ -29,8 +27,6 @@ No dependencies — just pure emoji magic 🪄
 - 🧩 Emoji grouping and subgrouping
 - 📦 Bundled emoji data, no internet required
 - 🪄 Zero dependencies, pure Python
-
----
 
 📖 Usage & Quick Start
 ----------------------
@@ -81,8 +77,6 @@ No dependencies — just pure emoji magic 🪄
     # Search for emojis by keyword, label, shortcode, or tag (print emoji characters)
     print([e.emoji for e in search_emojis("cat")])     # ['🐱', '😺', ...]
 
----
-
 📦 Included Emoji Data
 ----------------------
 
@@ -92,8 +86,6 @@ This library bundles static emoji data from:
 - `emoji-kitchen-backend by xsalazar <https://github.com/xsalazar/emoji-kitchen-backend>`_ 🍳
 
 All data is included upfront — no runtime fetching or internet required 🔒
-
----
 
 ⚙️ Installation
 ---------------
@@ -118,8 +110,6 @@ To install the development version:
     cd emojis.py
     pip install -e .
 
----
-
 🙌 Contributing
 ---------------
 
@@ -132,18 +122,13 @@ If you have suggestions, bug reports, or want to add features, please open an is
 
 Thank you for helping make emojis.py better! 🎉
 
----
-
 🔗 Links
 --------
 
-🔎 `Documentation <https://emojispy.readthedocs.io>`_  
-📦 `PyPI Package <https://pypi.org/project/emojis.py/>`_  
-📝 `Unicode Full Emoji List <https://unicode.org/emoji/charts/full-emoji-list.html>`_  
-🌐 `Emojipedia <https://emojipedia.org/>`_  
-🧑‍🎨 `OpenMoji <https://openmoji.org/>`_  
-📊 `Emoji Tracker <https://emojitracker.com/>`_
-
----
+| 🔎 `Documentation <https://emojispy.readthedocs.io>`_  
+| 📦 `PyPI Package <https://pypi.org/project/emojis.py/>`_  
+| 📝 `Unicode Full Emoji List <https://unicode.org/emoji/charts/full-emoji-list.html>`_  
+| 🌐 `Emojipedia <https://emojipedia.org/>`_  
+|
 
 🧪 Explore, search, and play with emojis in Python — your code just got way more expressive! 😄🎨🚀
