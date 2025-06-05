@@ -125,7 +125,7 @@ Thank you for helping make emojis.py better! 🎉
 🔗 Links
 --------
 
-| 🔎 `Documentation <https://emojispy.readthedocs.io>`_  
+| 🔎 `Documentation <https://emoji.readthedocs.io>`_  
 | 📦 `PyPI Package <https://pypi.org/project/emojis.py/>`_  
 | 📝 `Unicode Full Emoji List <https://unicode.org/emoji/charts/full-emoji-list.html>`_  
 | 🌐 `Emojipedia <https://emojipedia.org/>`_  
