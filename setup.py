@@ -9,7 +9,6 @@ setup(
     name = "emojis.py",
     version = "1.1.0",
     description = "A basic emoji manipulator for Python.",
-    include_package_data = True,
     package_data = {"emojis.py": ["database/*.json"]},
     long_description = README,
     long_description_content_type = "text/x-rst",
