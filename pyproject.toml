@@ -14,9 +14,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 packages = ["emojis"]
+include = ["database/*.json"]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/Ombucha/emojis.py/issues"
-
-[tool.setuptools.package-data]
-"emojis.py" = ["database/*.json"]
