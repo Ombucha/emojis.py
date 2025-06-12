@@ -7,7 +7,7 @@ README = (HERE / "README.rst").read_text()
 
 setup(
     name = "emojis.py",
-    version = "1.2.0",
+    version = "1.3.0",
     description = "A basic emoji manipulator for Python.",
     package_data = {"emojis.py": ["emojis/database/*.json"]},
     long_description = README,

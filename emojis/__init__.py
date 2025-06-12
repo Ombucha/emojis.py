@@ -13,7 +13,7 @@ __title__ = "emojis.py"
 __author__ = "Ombucha"
 __license__ = "MIT"
 __copyright__ = "Copyright 2025 Omkaar"
-__version__ = "1.2.0"
+__version__ = "1.3.0"
 
 
 from .emojis import *
