@@ -24,9 +24,10 @@ SOFTWARE.
 
 
 import json
+import os
 
 
-with open("database/data.json", encoding="utf-8") as file:
+with open(os.path.join(os.path.dirname(__file__), "database/data.json"), encoding="utf-8") as file:
     data = json.loads(file.read())
 
 data_from_emoji = {}
@@ -37,7 +38,7 @@ for item in data:
         for skin in item["skins"]:
             data_from_emoji[skin["emoji"]] = skin
 
-with open("database/messages.json", encoding="utf-8") as file:
+with open(os.path.join(os.path.dirname(__file__), "database/messages.json"), encoding="utf-8") as file:
     messages = json.loads(file.read())
 
 group_from_order = {}
@@ -48,7 +49,7 @@ subgroup_from_order = {}
 for item in messages["subgroups"]:
     subgroup_from_order[item["order"]] = item
 
-with open("database/shortcodes.json", encoding="utf-8") as file:
+with open(os.path.join(os.path.dirname(__file__), "database/shortcodes.json"), encoding="utf-8") as file:
     shortcodes = json.loads(file.read())
 
 

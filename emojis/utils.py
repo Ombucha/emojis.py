@@ -24,11 +24,12 @@ SOFTWARE.
 
 
 import json
+import os
 
 from .emojis import Emoji, Group, Subgroup
 
 
-with open("database/data.json", encoding="utf-8") as file:
+with open(os.path.join(os.path.dirname(__file__), "database/data.json"), encoding="utf-8") as file:
     data = json.loads(file.read())
 
 data_from_emoji = {}
@@ -39,10 +40,10 @@ for item in data:
         for skin in item["skins"]:
             data_from_emoji[skin["emoji"]] = skin
 
-with open("database/metadata.json", encoding="utf-8") as file:
+with open(os.path.join(os.path.dirname(__file__), "database/metadata.json"), encoding="utf-8") as file:
     metadata = json.loads(file.read())
 
-with open("database/shortcodes.json", encoding="utf-8") as file:
+with open(os.path.join(os.path.dirname(__file__), "database/shortcodes.json"), encoding="utf-8") as file:
     shortcodes = json.loads(file.read())
 
 shortcodes_from_shortcode = {}
