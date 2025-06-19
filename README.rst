@@ -3,13 +3,13 @@
 .. image:: https://img.shields.io/pypi/v/emojis.py
     :target: https://pypi.python.org/pypi/emojis.py
     :alt: PyPI version
-.. image:: https://img.shields.io/pypi/dm/emojis.py
+.. image:: https://static.pepy.tech/personalized-badge/emojis.py?period=total&left_text=downloads&left_color=grey&right_color=red
     :target: https://pypi.python.org/pypi/emojis.py
     :alt: PyPI downloads
-.. image:: https://sloc.xyz/github/Ombucha/emojis.py
+.. image:: https://sloc.xyz/github/Ombucha/emojis.py?lower=True
     :target: https://github.com/Ombucha/emojis.py/graphs/contributors
     :alt: Lines of code
-.. image:: https://img.shields.io/github/repo-size/Ombucha/emojis.py
+.. image:: https://img.shields.io/github/repo-size/Ombucha/emojis.py?color=yellow
     :target: https://github.com/Ombucha/emojis.py
     :alt: Repository size
 
